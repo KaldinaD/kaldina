@@ -39,4 +39,7 @@ class Lab1Test {
     void readFromFile() {
         assertNotNull(Utils.readFromFile(SAVE_FILE));
     }
+
+    @Test
+    void example(){}
 }
